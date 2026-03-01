@@ -54,8 +54,8 @@ Infrastructure as Code (IaC) principles were applied to ensure reproducibility a
 
 ### 6. Location Setup Guidelines
 When deploying this architecture, adhere to the following location and distribution strategies:
-* [cite_start]**Region Strategy:** Resources should be deployed in the `us-central1` region[cite: 60]. 
-* [cite_start]**Zone Distribution:** The Managed Instance Group (MIG) should distribute instances across **Multiple Zones** within `us-central1`[cite: 60]. [cite_start]This multi-zone deployment is a crucial setup step to protect the application and ensure high availability in case a single Google data center experiences an outage[cite: 60].
+* **Region Strategy:** Resources should be deployed in the `us-central1` region. 
+* **Zone Distribution:** The Managed Instance Group (MIG) should distribute instances across **Multiple Zones** within `us-central1`. This multi-zone deployment is a crucial setup step to protect the application and ensure high availability in case a single Google data center experiences an outage.
 
 ---
 
