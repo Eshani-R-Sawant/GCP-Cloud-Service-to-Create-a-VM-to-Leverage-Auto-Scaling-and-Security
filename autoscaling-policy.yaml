@@ -1,0 +1,6 @@
+autoscalingPolicy:
+minNumReplicas: 1
+maxNumReplicas: 4
+cpuUtilization:
+utilizationTarget: 0.6 # 60% CPU Threshold
+coolDownPeriodSec: 60
