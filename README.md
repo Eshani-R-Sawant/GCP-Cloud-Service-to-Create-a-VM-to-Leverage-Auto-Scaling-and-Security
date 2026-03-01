@@ -9,13 +9,13 @@ The objective of this project is to create a secure, self-healing, and auto-scal
 
 
 ##  Project Structure
-├── README.md                      # Project documentation, architecture rules, and setup guide
-├── startup-script.sh              # Bash script embedded in the Instance Template to install Apache and stress utility 
-├── stress-test.sh                 # Command-line instructions to simulate 100% CPU load 
-├── autoscaling-policy.yaml        # Autoscaling rules defining minimum/maximum replicas and CPU thresholds 
+├── README.md                     
+├── startup-script.sh               
+├── stress-test.sh                 
+├── autoscaling-policy.yaml        
 └── reports/
-    ├── M25CSE012_deployment_and_configuration.pdf  # Deployment scripts, health check logic, and firewall configurations
-    └── M25CSE012_Assignment2_report.pdf            # Comprehensive assignment report outlining infrastructure setup, HA, and empirical results 
+    ├── M25CSE012_deployment_and_configuration.pdf  
+    └── M25CSE012_Assignment2_report.pdf             
 ## Architectural Diagram
 <img width="925" height="482" alt="image" src="https://github.com/user-attachments/assets/2f0614cf-9051-451a-ac42-7d50cfae27d6" />
 
